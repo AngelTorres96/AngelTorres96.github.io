@@ -3,6 +3,7 @@ body {
   height: 100%;
 }
 
+
 body {
     background-color: #111111;
     display: flex;
@@ -10,9 +11,16 @@ body {
     margin: 0;
 }
 
+@font-face {
+  font-family: oswald;
+  src: url(font/Oswald-VariableFont_wght.ttf);
+}
+*{
+  font-family:oswald;
+}
 h1{
     color: #9cada3;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 3em;
 }
 
