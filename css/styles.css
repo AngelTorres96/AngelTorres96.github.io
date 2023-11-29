@@ -46,7 +46,7 @@ small, p{
     color:white;
 }
 
-article{
+.article{
     max-height: 300px;
     cursor: pointer;
 }
@@ -72,4 +72,9 @@ footer {
 .img-card{
     max-height: 300px;
     max-width: inherit;
+}
+
+.img-card-catalogue{
+  max-height: inherit;
+  max-width: inherit;
 }
