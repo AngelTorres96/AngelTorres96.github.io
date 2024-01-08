@@ -71,10 +71,10 @@ section {
     min-height: 100vh;
 }
 footer {
-  color: #111111;
+  background: #111111;
   min-height: 150px;
   padding: 0 10px;
-  background: #9cada3;
+  color: #9cada3;
 }
 
 .img-card{
