@@ -22,9 +22,12 @@ h1{
     color: #9cada3;
     font-weight: 400;
     font-size: 3em;
+    text-align: center;
 }
 
-
+h1 > a{
+  font-weight: 500 !important; 
+}
 
 .header-menu,
 footer {
@@ -34,12 +37,15 @@ footer {
 }
 .header-menu {
   justify-content: center; 
-  height: 200px;
+  height: 160px;
   border:white;
   color: #fff;
 }
+p{
+  text-align: center;
+  color: white;
+}
 h2 {
-    font-weight: bold;
     color: #9cada3;
     margin: 0 0 8px;
 }
@@ -48,6 +54,11 @@ ul li {
   padding: 0 10px;
   list-style: none;
   color:white;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
 }
 
 small, p{
@@ -69,7 +80,7 @@ section {
     /*display: flex;*/
   /*flex: 1;
   padding-right: 15px;*/
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 footer {
   background: #111111;
@@ -138,5 +149,5 @@ a:active {
 }
 
 li > a{
-  color:#fff !important; 
+  color:#c1c1c1 !important;
 }
