@@ -61,6 +61,14 @@ ul{
   justify-content: center;
 }
 
+.ul-services{
+  display:block;
+  justify-content: center;
+}
+.ul-services > li{
+  margin-bottom: 1em;
+}
+
 small, p{
     color:white;
 }
