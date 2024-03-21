@@ -159,3 +159,7 @@ a:active {
 li > a{
   color:#c1c1c1 !important;
 }
+
+.pleft{
+  text-align: left !important;
+}
