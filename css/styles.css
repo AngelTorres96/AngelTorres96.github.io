@@ -100,8 +100,14 @@ footer {
 .img-card{
     max-height: 300px;
     max-width: inherit;
+    width: 100%;
 }
 
+.video{
+  width:100%;
+  max-height: 300px;
+  max-width: inherit;
+}
 .img-card-catalogue{
   max-height: inherit;
   max-width: inherit;
@@ -110,18 +116,14 @@ footer {
 .btn-more-right{
   color: #9cada3;
   border-color: #9cada3;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  float: right;
   
 }
 
 .btn-more-left{
   color: #9cada3;
   border-color: #9cada3;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+  float: left;
   
 }
 
@@ -162,4 +164,9 @@ li > a{
 
 .pleft{
   text-align: left !important;
+}
+
+.banner{
+  width: 100%;
+  min-height:150px;
 }
